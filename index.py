@@ -14,7 +14,7 @@ console = Console()
 
 def main():
 
-    openai.api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" # La API Key se genera en https://openai.com/api
+    openai.api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" # La API Key se genera en https://platform.openai.com
 
     # Se imprime el título y se muestra una tabla con los comandos disponibles
     console.print("💬 [bold red]Una aplicación ChatGPT creada con Python[/bold red] 💬\n")
