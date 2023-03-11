@@ -1,9 +1,14 @@
 # chatgpt-python
+
+![about-chatgpt-python](https://user-images.githubusercontent.com/6242827/224505890-7ddd267f-a6f5-4743-93a8-9ac0a70b70b9.png)
+
 Una aplicación para chatear con ChatGPT creada con Python.
 
 ## Una breve explicación de qué hace este código
 
 Este código es una aplicación ChatGPT creada con Python que utiliza la API de OpenAI para generar respuestas a preguntas escritas por los usuarios. A continuación, se describen las funciones principales del código:
+
+![chatgpt-funcionando](https://user-images.githubusercontent.com/6242827/224506011-7b549d51-2993-4210-98fb-0439d6fbbae3.png)
 
 - La biblioteca openai se importa para establecer la conexión con la API de OpenAI.
 - La biblioteca typer se importa para permitir que el usuario escriba su pregunta en la terminal y se recoja como una entrada.
