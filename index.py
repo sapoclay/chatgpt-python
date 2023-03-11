@@ -90,7 +90,7 @@ def main():
         messages.append({"role": "user", "content": content})
 
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo", # El motor que vamos a utilizar, podr
+            model="gpt-3.5-turbo", # El motor que vamos a utilizar, podríamos cambiarlo por text-davinci-002
             messages=messages,
             max_tokens=2048,
             temperature=1,
