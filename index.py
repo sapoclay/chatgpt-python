@@ -104,8 +104,8 @@ def main():
         response = openai.Completion.create(
             engine=model_engine,
             prompt=generate_prompt(messages),
-            max_tokens=1024,
-            temperature=0.7,
+            max_tokens=2048,
+            temperature=1.1,
             n=1,
             stop=None,
             presence_penalty=0.5,
